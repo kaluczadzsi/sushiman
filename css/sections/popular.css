@@ -74,4 +74,22 @@
 
 .popular-foods__button {
   width: fit-content;
+  padding: 20px 30px;
+  margin: 18px auto 0;
+  font-size: 18px;
+  line-height: 23px;
+  font-family: var(--plus-jakarta-sans);
+  color: #fff;
+  border: none;
+  outline: none;
+  background: var(--secondary-color);
+  border-radius: 64px;
+  cursor: pointer;
+}
+
+.popular-foods__button img {
+  width: 14px;
+  height: 14px;
+  object-fit: contain;
+  margin-left: 21px;
 }
